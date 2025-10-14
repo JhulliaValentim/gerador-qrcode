@@ -18,7 +18,7 @@ git clone https://github.com/JhulliaValentim/gerador-qrcode.git
 2️- Entrar na pasta:
 cd gerador-qrcode
 
-3️- Rodar (É importante que tenha a linguem python na máquina local):
+3️- Rodar (É importante que tenha a linguagem python na máquina local):
 python app.py
 
 Depois, abre o navegador e acessa:
