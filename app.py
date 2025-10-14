@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, send_file
 import qrcode
 from io import BytesIO
 app = Flask(__name__)
-@app.route('/', methods=['Get','POST'])
+@app.route('/', methods=['GET','POST'])
 def index():
     qr_code_base64=None
     if request.method == 'POST':
