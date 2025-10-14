@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="static\favicon.ico">
+
+    <link rel="stylesheet" href="static\style.css">
+    <title>Gerador de QR Code</title>
+    
+</head>
+<body>
+    <div class="container">
+        <h1>Gerador de QR Code</h1>
+        
+        <form method="POST">
+            <input type="text" name="data" placeholder="Digite o texto ou URL" required>
+            <button type="submit">Gerar QR Code</button>
+        </form>
+
+        {% if qr_code_base64 %}
+            <div class="qr-code">
+                <h2>Seu QR Code:</h2>
+                <img src="data:image/png;base64,{{ qr_code_base64 }}" alt="QR Code Gerado">
+            </div>
+        {% endif %}
+    </div>
+</body>
+</html>

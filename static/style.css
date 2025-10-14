@@ -1,0 +1,60 @@
+   body{
+    font-family: Arial, sans-serif; 
+    text-align: center; 
+    padding-top: 50px;
+    background: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f86c8929-817c-483f-9b4e-e1c80d10066e/dcridkf-ba71937f-5154-41bb-a6d8-d9b4b843ed48.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiIvZi9mODZjODkyOS04MTdjLTQ4M2YtOWI0ZS1lMWM4MGQxMDA2NmUvZGNyaWRrZi1iYTcxOTM3Zi01MTU0LTQxYmItYTZkOC1kOWI0Yjg0M2VkNDgucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Dgw8gBCvdu38FU3O7Djcss0vXXNAB3WWInSK7Jyo8NE')no-repeat center center fixed;
+    background-size: cover;
+}
+h1{
+    background: linear-gradient(270deg, #cf0000, #3d19df, #00cf11);
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: arcoiris 6s linear infinite;
+}
+@keyframes arcoiris {
+    0% { background-position: 0% 50%; }
+    100% { background-position: 100% 50%; }
+}
+h2{
+    background: linear-gradient(270deg, #11cf00, #3d19df, #ff0000);
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: arcoiris2 6s linear infinite;
+}
+@keyframes arcoiris2 {
+    0% { background-position: 0% 50%; }
+    100% { background-position: 100% 50%; }
+}
+.container{
+    background-color: #e4e4e4;
+    position: relative;
+    z-index: 2;
+    max-width: 400px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    border: 3px solid #2600ff; 
+    border-radius: 8px; 
+}
+input[type="text"]{
+    width: 90%; 
+    padding: 10px; 
+    margin-bottom: 15px; 
+    border: 1px solid #ddd; 
+    border-radius: 4px;
+}
+button{
+    padding: 10px 20px; 
+    background-color: #00a2ff; 
+    color: white; border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+}
+button:hover{
+    transform: scale(1.08);
+    box-shadow: 0 0 25px rgba(255, 12, 255, 0.8);
+}
+.qr-code{ 
+    margin-top: 20px; 
+}
