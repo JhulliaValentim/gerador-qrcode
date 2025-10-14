@@ -24,4 +24,4 @@ python app.py
 Depois, abre o navegador e acessa:
 http://127.0.0.1:5000
 
-![Exemplo do projeto](static\Foto do site.png)
+![Foto do projeto](static\Foto do site.png)
