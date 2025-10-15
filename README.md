@@ -1,11 +1,11 @@
 #Gerador de QR-Code:
 
 Este é um projeto simples e estilizado de "Gerador de QR-Code", criado com HTML, CSS e Python (Flask).  
-A aplicação permite que o usuário insira um link e gere automaticamente um QR-Code.
+A aplicação permite que o usuário insira um texto ou link e gere automaticamente um QR-Code.
 
 ##Funcionalidades:
 
-- Gera QR-Codes a partir de qualquer URL  
+- Gera QR-Codes a partir de qualquer texto ou URL  
 - Interface simples, colorida e animada  
 - Exibe o QR-Code gerado diretamente na tela  
 - Projeto fácil de rodar localmente  
@@ -14,7 +14,7 @@ A aplicação permite que o usuário insira um link e gere automaticamente um QR
 
 [Gerador de QR Code – Acesse agora](https://gerador-qrcode-xqc2.vercel.app/)
 
-Você consegue gerar QR Codes personalizados a partir de qualquer link de um jeito rápido e simples
+Você consegue gerar QR Codes personalizados a partir de qualquer texto ou link de um jeito rápido e simples
 
 ##Como rodar o projeto localmente:
 
