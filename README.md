@@ -1,6 +1,6 @@
 #Gerador de QR-Code:
 
-Este é um projeto simples e estilizado de "Gerador de QR-Code", criado com HTML, CSS e Python (Flask).  
+Este é um projeto simples e estilizado de "Gerador de QR-Code", criado com HTML, CSS e Python (Flask e ultilizando a biblioteca qrcode).  
 A aplicação permite que o usuário insira um texto ou link e gere automaticamente um QR-Code.
 
 ##Funcionalidades:
