@@ -12,7 +12,7 @@ A aplicação permite que o usuário insira um link e gere automaticamente um QR
 
 ##Acesse o projeto online:
 
-[Gerador de QR Code – Acesse agora](https://teu-site.vercel.app)
+[Gerador de QR Code – Acesse agora](https://gerador-qrcode-xqc2.vercel.app/)
 
 Você consegue gerar QR Codes personalizados a partir de qualquer texto ou link, de um jeito rápido e simples
 
