@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="static/favicon.ico">
+    <link rel="stylesheet" href="/static/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <title>Gerador de QR Code</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Gerador de QR Code</h1>
+            <p>Crie o seu QR Code instantaneamente de forma simples e rápida.</p>
+        </div>
+
+        <form method="POST">
+            <input type="text" name="data" placeholder="Digite o texto ou URL " required autocomplete="off">
+            <button type="submit">Gerar QR Code</button>
+        </form>
+
+        {% if qr_code_base64 %}
+        <div class="qr-code">
+            <h2>O seu QR Code está pronto:</h2>
+            <div class="qr-wrapper">
+                <img src="data:image/png;base64,{{ qr_code_base64 }}" alt="QR Code Gerado">
+            </div>
+        </div>
+        {% endif %}
+    </div>
+</body>
+
+</html>
